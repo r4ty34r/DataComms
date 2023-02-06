@@ -9,7 +9,7 @@
 using namespace std;
 
 
-int main(const int argc, char* argv[]){
+int main(){
     //Initialize winsock2 object
     WSADATA wsData; //WSA = winsock api 
 
@@ -108,7 +108,7 @@ int main(const int argc, char* argv[]){
 
     ZeroMemory(host, NI_MAXHOST); //on mac/linux this command is memset(host,0,NI_MAXHOST)
     ZeroMemory(service, NI_MAXHOST); //on mac/linux this command is memset(service,0,NI_MAXHOST)
-
+ 
     //check to see if we can get host info, if not, rely on connection data 
     cout << "\nMoving to gethostbyname......." << endl;
 
@@ -151,7 +151,7 @@ int main(const int argc, char* argv[]){
 
         if (bytesReceived == SOCKET_ERROR)
         {
-            cerr <<"\n ERROR IN: recv(). Quitting." << endl; //program stops here 
+            cerr <<"\n ERROR IN: recv(). Quitting." << endl << WSAGetLastError(); //program stops here 
             return -1;
         }
         if (bytesReceived == 0)
