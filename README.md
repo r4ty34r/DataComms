@@ -4,4 +4,7 @@ Rebuilding the C++ base code for linux, on windows. Sample code hosted here: htt
 
 To compile: g++ wserver.cpp -o prog -lws2_32
 
-To execute: ./prog or prog.exe 
+To execute C++: ./prog or prog.exe 
+
+
+For python: python {program}.py
