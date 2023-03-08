@@ -26,7 +26,7 @@ if len(sys.argv) != 2:
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # Binding socket and IP address
-s.bind(("0.0.0.0", int(sys.argv[1])))
+s.bind((IP, int(sys.argv[1])))
 print(f"Waiting for client on port: {sys.argv[1]} ")
 
 # Main program loop
