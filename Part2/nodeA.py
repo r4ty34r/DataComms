@@ -1,8 +1,9 @@
 # # # # # # # # # # #
-# Name: Oscar Bruno #
+# Group: Oscar Bruno#
+#      Jacobo Fliman#
 # Lab 2 Part 1      #
 # Node A Code       #
-# Due Date: 3-10-23 #
+# Due Date: 3-12-23 #
 # # # # # # # # # # #
 
 
