@@ -1,9 +1,11 @@
 # # # # # # # # # # #
-# Name: Oscar Bruno #
+# Group: Oscar Bruno#
+#      Jacobo Fliman#
 # Lab 2 Part 1      #
-# Server C Code     #
-# Due Date: 3-10-23 #
+# Node A Code       #
+# Due Date: 3-12-23 #
 # # # # # # # # # # #
+
 
 # Importing socket module
 import socket
