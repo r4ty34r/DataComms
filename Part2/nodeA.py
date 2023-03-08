@@ -14,7 +14,7 @@ import socket
 import sys
 
 # If the length of the command line args is not 3
-if len(sys.argv) != 3:
+if len(sys.argv) != 2:
 
     # Prompt how to execute
     print("Useage: python " + sys.argv[0] + " <ip> <listen port>")
