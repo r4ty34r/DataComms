@@ -11,6 +11,7 @@ import socket
 # Sys provides variables for input/output control
 import sys
 
+IP = 127.0.0.1
 
 # If the length of the command line args is not 3
 if len(sys.argv) != 2:
