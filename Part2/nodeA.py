@@ -17,7 +17,7 @@ import sys
 if len(sys.argv) != 2:
 
     # Prompt how to execute
-    print("Useage: python " + sys.argv[0] + " <ip> <listen port>")
+    print("Useage: python <ip> <listen port>")
     
     # Exit program 
     sys.exit(-1)
